@@ -29,9 +29,9 @@ A hands-on lab for **Suricon 2026**. You get a working Suricata sensor feeding S
 
 Modern security teams rely on Suricata as a critical detection engine, yet most training focuses on rule writing and traffic analysis rather than operational failure recovery. In real environments, detection failures are far more often caused by misconfiguration, broken pipelines, resource starvation, or log ingestion issues than by missing signatures.
 
-This workshop provides a hands-on, scenario-driven approach to operating Suricata in production. Participants are given a fully functional single-server lab that runs Suricata, a traffic generator, and Splunk in a containerized environment. The system initially operates correctly, generating alerts and normal telemetry.
+This workshop provides a hands-on, scenario-driven approach to operating Suricata in production. Participants are given a fully functional single-server lab that runs Suricata and Splunk in a containerized environment, with a traffic generator replaying lab traffic. The system initially operates correctly, generating alerts and normal telemetry.
 
-The lab is then intentionally damaged through a series of realistic operational failures including configuration errors, permissions issues, rule loading problems, logging pipeline failures, interface misbinding, and resource exhaustion. Attendees must use Suricata logs, configuration validation, packet capture, and Splunk visibility to diagnose, troubleshoot, and restore the system to a healthy state.
+The lab is then intentionally damaged through a series of realistic operational failures including configuration errors, permissions issues, rule loading problems, logging pipeline failures, and interface misbinding. Attendees must use Suricata logs, configuration validation, packet capture, and Splunk visibility to diagnose, troubleshoot, and restore the system to a healthy state.
 
 By the end of the workshop, participants will understand:
 
